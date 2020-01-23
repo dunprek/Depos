@@ -54,6 +54,7 @@ class MainActivity : AppCompatActivity() {
             tvInitialMoney.text = "${decimalFormat.format(a*12)}/ Tahun"
         }
 
+        //update is
 
         tvInterestMonth.text = interestInMonth.toString()
         tvInterestInYear.text = interestInYear.toString()
